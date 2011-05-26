@@ -1,0 +1,90 @@
+PATH
+  remote: .
+  specs:
+    campfire_handler (0.0.1)
+      chef (>= 0.9.0)
+      tinder
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.7)
+    addressable (2.2.6)
+    bunny (0.6.0)
+    chef (0.10.0)
+      bunny (>= 0.6.0)
+      erubis
+      highline
+      json (>= 1.4.4, <= 1.5.2)
+      mixlib-authentication (>= 1.1.0)
+      mixlib-cli (>= 1.1.0)
+      mixlib-config (>= 1.1.2)
+      mixlib-log (>= 1.3.0)
+      moneta
+      net-ssh (~> 2.1.3)
+      net-ssh-multi (~> 1.0.1)
+      ohai (>= 0.6.0)
+      rest-client (>= 1.0.4, < 1.7.0)
+      treetop (~> 1.4.9)
+      uuidtools
+    erubis (2.7.0)
+    eventmachine (0.12.10)
+    faraday (0.5.7)
+      addressable (~> 2.2.4)
+      multipart-post (~> 1.1.0)
+      rack (>= 1.1.0, < 2)
+    highline (1.6.2)
+    json (1.5.1)
+    mime-types (1.16)
+    minitest (2.1.0)
+    mixlib-authentication (1.1.4)
+      mixlib-log
+    mixlib-cli (1.2.0)
+    mixlib-config (1.1.2)
+    mixlib-log (1.3.0)
+    mocha (0.9.12)
+    moneta (0.6.0)
+    multipart-post (1.1.2)
+    net-ssh (2.1.4)
+    net-ssh-gateway (1.1.0)
+      net-ssh (>= 1.99.1)
+    net-ssh-multi (1.0.1)
+      net-ssh (>= 1.99.2)
+      net-ssh-gateway (>= 0.99.0)
+    ohai (0.6.4)
+      mixlib-cli
+      mixlib-config
+      mixlib-log
+      systemu
+      yajl-ruby
+    polyglot (0.3.1)
+    rack (1.3.0)
+    rake (0.9.0)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
+    simple_oauth (0.1.5)
+    systemu (2.2.0)
+    tinder (1.4.4)
+      activesupport
+      eventmachine
+      faraday (~> 0.5.1)
+      mime-types
+      multipart-post
+      twitter-stream
+    treetop (1.4.9)
+      polyglot (>= 0.3.1)
+    twitter-stream (0.1.13)
+      eventmachine (~> 0.12.8)
+      simple_oauth (~> 0.1.4)
+    uuidtools (2.1.2)
+    yajl-ruby (0.8.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  campfire_handler!
+  minitest
+  mocha
+  rake
+  tinder (= 1.4.4)
