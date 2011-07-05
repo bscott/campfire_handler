@@ -13,6 +13,11 @@ In your chef client file (often placed at /etc/chef/client.rb) put:
   require "campfire_handler"
   exception_handlers << CampfireHandler.new(:subdomain => "your-campfire-subdomain",:token => "your-campfire-token-key")
 
+
+== Contributors
+  Hat tip to Umang Chouhan (uchouhan) for the campfire gem.
+
 == Copyright
 
 Copyright (c) 2011 Brian Scott, See LICENSE for details.
+
